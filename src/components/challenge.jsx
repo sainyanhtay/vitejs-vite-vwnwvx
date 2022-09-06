@@ -6,6 +6,7 @@ import styles from './styles/challengeStyles';
 const HEADER_IMAGE =
   'https://seeklogo.com/images/N/nba-logo-41668C66DB-seeklogo.com.png';
 const ITEM_IMAGE = 'https://logo-logos.com/2017/11/nba-logo.png';
+
 const Challenge = () => {
   const [playerList, setplayerList] = useState([]);
   const [totalCount, setTotalCount] = useState(null);
